@@ -1,22 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pixel Live Demo</title>
-    <style>
-      html,body,#root{height:100%;margin:0}
-    </style>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta charset="utf-8">
+    <style>html,body{margin:0;height:100%}iframe{border:0;width:100%;height:100vh}</style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="text/babel" src="./app.jsx"></script>
-    <script type="text/babel">
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(<App />);
-    </script>
+    <iframe src="https://pixel-live-demo.vercel.app/embed.html" allowfullscreen loading="lazy"></iframe>
   </body>
 </html>

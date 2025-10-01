@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@source "./index.html";
+@source "./src/**/*.{js,jsx}";
+
+body {
+  @apply bg-zinc-50 text-zinc-900;
+}
